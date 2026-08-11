@@ -12,8 +12,8 @@ class ReasonerAgent:
             
         self.client = genai.Client(api_key=self.api_key)
         
-        # Sabit sürüm adları yeni hesaplar için kapatılabiliyor;
-        # Google'ın hep güncel tuttuğu alias'ı kullanıyoruz.
+        # Sabit sürüm adlari yeni hesaplar için kapatilabiliyor;
+        # Google'in hep güncel tuttuğu alias'i kullaniyoruz.
         self.model_name = "gemini-flash-latest"
 
     def generate_patch(self, error_details: Dict[str, str], code_snippet: str) -> Optional[str]:
