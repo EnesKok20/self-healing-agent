@@ -1,3 +1,9 @@
+## 🚀 Sistem Demosu
+
+Ajanımızın otonom olarak hatayı yakalayıp Gemini ile çözdüğü anın canlı demosu:
+
+![Self-Healing Agent Demo](test_01.gif)
+
 <p align="center">
 
 &#x20; <img src="assets/banner.png" alt="Self-Healing Code Agent" width="800"/>
