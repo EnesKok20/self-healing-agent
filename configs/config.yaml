@@ -1,0 +1,16 @@
+agent:
+  model: gpt-4o
+  temperature: 0.2
+  max_retries: 3
+
+watcher:
+  mode: poll
+  poll_interval: 30
+
+validator:
+  test_command: pytest
+  timeout: 120
+
+merger:
+  auto_merge: false
+  branch_prefix: fix/agent
